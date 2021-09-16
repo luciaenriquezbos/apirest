@@ -24,13 +24,16 @@
     "run-sequence": "*"
   },
   "devDependencies": {
-    "lodash.template": ">=4.5.0"
+    "lodash.template": ">=4.5.0",
+    "nodemon": "^2.0.12"
   },
   "scripts": {
+    "dev":"nodemon src/index.js",
     "start": "gulp",
     "docs": "rm -rf docs && ./node_modules/.bin/gulp docs",
     "push-docs": "rm -rf docs && gulp docs && git add docs/* && git commit -m \"Update docs\" && git push",
     "deploy": "npm run push-docs"
+    
   },
   "repository": {
     "type": "git",
