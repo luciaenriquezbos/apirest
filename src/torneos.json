@@ -1,0 +1,23 @@
+[
+
+    {
+        "id":"1",
+        "tournament":"RANKING PAREJAS 9 HOYOS",
+        "club":"Las Rejas",
+        "province": "Madrid",
+        "ccaa": "Madrid",
+        "year": "2021",
+        "date": "13/09/2021"
+    },
+
+    {
+        "id":"2",
+        "tournament":"TROFEO LAS CASAS",
+        "club":"Cerdaña",
+        "province": "Barcelona",
+        "ccaa": "Cataluña",
+        "year": "2021",
+        "date": "17/09/2021"
+    }
+
+]

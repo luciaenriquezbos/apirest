@@ -11,9 +11,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //routes
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
+app.use(require("./routes/index"));
+app.use("/api/torneos", require("./routes/torneos"));
 
 //starting the server
 app.listen(3000, () => {
