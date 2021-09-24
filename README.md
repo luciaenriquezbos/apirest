@@ -1,1 +1,3 @@
 # apirest
+
+npm run dev
